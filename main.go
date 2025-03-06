@@ -14,7 +14,7 @@ func (h Human) Metod() {
 	fmt.Println("я человек", h.name, h.age)
 }
 func (h Human) Run() {
-	fmt.Println("я пошел")
+	fmt.Println("я ПОБЕЖАЛ")
 }
 
 type Dag struct {
