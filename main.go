@@ -23,7 +23,7 @@ type Dag struct {
 }
 
 func (d Dag) Metod() {
-	fmt.Println("я утка", d.name, d.age)
+	fmt.Println("я УТКА", d.name, d.age)
 }
 func (d Dag) Run1() {
 	fmt.Println("я плыву!")
